@@ -1,0 +1,73 @@
+/* Centraliza o conteúdo da div .content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Centraliza todos os itens horizontalmente */
+    justify-content: left; /* Centraliza o conteúdo verticalmente */
+    text-align: left; /* Centraliza o texto dentro dos elementos */
+    margin: 0 15rem;
+    max-width: 1000px; /* Limita a largura máxima */
+    padding: 1rem;
+  }
+  /* Remove as bolinhas da lista */
+.centered ul li {
+  list-style-type: none; /* Remove as bolinhas */
+  padding-left: 20px; /* Remove o recuo da lista */
+}
+
+  
+  /* Centraliza as imagens e os itens da lista */
+  .centered {
+    text-align: left;
+
+  }
+
+  /* Estilizando a tabela */
+  table.centered {
+    width: 100%; /* Tabela ocupa toda a largura do contêiner */
+    border-collapse: collapse; /* Remove o espaçamento entre as células */
+    margin: 20px 0; /* Espaço entre a tabela e o conteúdo acima/abaixo */
+  }
+  
+  table.centered th, table.centered td {
+    border: 1px solid #ddd; /* Borda cinza claro */
+    padding: 10px; /* Espaçamento dentro das células */
+    text-align: center; /* Centraliza o conteúdo das células */
+  }
+  
+  table.centered th {
+    background-color: #f4f4f4; /* Cor de fundo para os cabeçalhos */
+  }
+  
+  table.centered tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo para as linhas pares */
+  }
+  
+  table.centered a {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: #007bff; /* Cor azul para o link */
+  }
+  
+  table.centered a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o link é passado por cima */
+  }
+ /* Definir cor preta para todos os títulos (h1, h2, h3, h4) */
+h1, h2, h3, h4 {
+    color: black;
+}
+#centered {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#centered h1 {
+
+  border-bottom: 0.5rem solid #007bff;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  margin: 10px 0 10px 0;
+  padding: 0;
+  color: #1b100a;
+}
