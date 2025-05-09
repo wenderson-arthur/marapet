@@ -51,23 +51,47 @@
   table.centered a:hover {
     text-decoration: underline; /* Adiciona sublinhado quando o link é passado por cima */
   }
- /* Definir cor preta para todos os títulos (h1, h2, h3, h4) */
+
+/* Definir cor preta para todos os títulos (h1, h2, h3, h4) */
 h1, h2, h3, h4 {
     color: black;
 }
+
 #centered {
   text-align: center;
   margin-top: 1rem;
 }
 
 #centered h1 {
-
   border-bottom: 0.5rem solid #007bff;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
   margin: 10px 0 10px 0;
   padding: 0;
   color: #1b100a;
+}
+
+.content p {
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .content{
+    margin: 0 10rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .content{
+    margin: 0 5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .content{
+    margin: 0 2rem;
+  }
 }

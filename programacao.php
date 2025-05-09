@@ -34,8 +34,8 @@ require_once('header.php');
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <h4>CREDENCIAMENTO</h4>
-                        <p style="font-size: 16px;">Modalidade: Presencial</p>
+                        <h4>Esse é um texto de exemplo pra mostrar que não vai dar problema no titulooooo</h4>
+                        <p style="font-size: 16px;">Modalidade: Presencial ou hibrido esse é subtituloooooo</p>
                     </div>
                     
                 </div>

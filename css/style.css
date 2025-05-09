@@ -2072,9 +2072,6 @@
   }
   
   @media (max-width: 1199px) {
-    #schedule .schedule-item p {
-      text-align: right;
-    }
     #header .container {
       max-width: 100%;
     }
@@ -2131,6 +2128,7 @@
     color: #1B100A;
     font-weight: 600;
   }
+
   @media (max-width: 768px) {
     .back-to-top {
       bottom: 15px;
@@ -2148,6 +2146,9 @@
   @media (max-width: 767px) {
     #schedule .nav-tabs a {
       padding: 8px 50px;
+    }
+    #schedule .schedule-item h4, p {
+      text-align: center;
     }
   }
   
